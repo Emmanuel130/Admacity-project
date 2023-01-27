@@ -1,0 +1,139 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.2);
+	backdrop-filter: saturate(180%) blur(10px);
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 5px;
+	z-index: 10;
+	color: whitesmoke;
+  }
+.cir_border:hover {
+	color: #fc036b;
+  }
+  .logo {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+	padding: 0 1.2rem;
+  }
+  
+  .nav-links {
+	display: flex;
+  }
+  
+  
+  .nav-links li a {
+	color: white;
+	cursor: pointer;
+  }
+
+  .cir_border {
+	padding: 6px 20px;
+	font-weight: bold;
+	border: 2px hidden whitesmoke;
+	border-radius: 20px;
+	margin: 0px -4px;
+  }
+  
+  .active {
+	border: 2px solid whitesmoke;
+	border-radius: 20px;
+	color: #fc036b;
+	cursor: pointer;
+  }
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Josefin Sans',sans-serif;
+}
+.container{
+ width: 100%;
+ height: 110vh;
+ background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(History.jpeg);
+ 
+ background-position: center;
+ background-size: cover;
+}
+h1{
+ color: white;
+ font-size: 100px;
+}
+span {
+ color: #0d0d0d;
+}
+p{
+ color: #fcfc;
+ font-size: 13px;
+ font-weight: bold;
+}
+.row{
+ display: flex;
+ padding: 150px 100px;
+ height: 80%;
+ align-items: center;
+}
+.col{
+ flex-basis: 50%;
+}
+footer {
+ position: relative;
+ width: 100%;
+ height: 400px;
+ background: #191919;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+footer p:nth-child(1) {
+ font-size: 30px;
+ color: white;
+ font-weight: bold;
+}
+
+footer p:nth-child(2) {
+ color: white;
+ font-size: 17px;
+ width: 500px;
+ text-align: center;
+ line-height: 26px;
+}
+
+.social {
+ display: flex;
+}
+
+.social a {
+ width: 45px;
+ height: 45px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #f9004d;
+ border-radius: 50%;
+ margin: 22px 10px;
+ color: white;
+ text-decoration: none;
+}
+
+.end {
+ position: absolute;
+ bottom: 35px;
+ align-items: center;
+ justify-content: center;
+}
+
+.end a {
+
+ color: #f9004d;
+
+ font-size: 14px;
+ text-decoration: none;
+
+}
